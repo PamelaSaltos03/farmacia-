@@ -5,7 +5,7 @@ class Usuario(models.Model):
     
     idusuario=models.IntegerField(primary_key=True)
     nombre=models.CharField(max_length=40)
-    contraseña=models.CharField(max_length=20)
+    contrasena=models.CharField(max_length=20)
     
     
 class cliente(models.Model):
